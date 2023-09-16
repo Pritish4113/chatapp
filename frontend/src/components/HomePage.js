@@ -36,7 +36,7 @@ const HomePage = () => {
           textAlign="center"
           bg="white"
         >
-          ChatBase
+          Chit-Chat
         </Text>
       </Box>
       <Box bg="white" w="100%" p={4} borderRadius="lg" borderWidth="1px" color="black">
