@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 // app.use(cors());
 app.use(cors({
-  origin: "localhost:5000"
+  origin: "https://chatbase-rcs5.onrender.com"
 }
 ))
 app.options('*', cors())
