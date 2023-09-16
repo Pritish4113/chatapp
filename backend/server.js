@@ -2,7 +2,7 @@
 require("dotenv").config();
 const express = require("express");
 const chats = require("./data/data");
-const cors = require("cors");
+// const cors = require("cors");
 const main = require("./config/db");
 const userRoutes = require("./routes/userRoutes");
 const chatRoutes = require("./routes/chatRoutes");
@@ -13,11 +13,11 @@ const path = require("path");
 const app = express();
 app.use(express.json());
 // app.use(cors());
-app.use(cors({
-  origin: "https://chatbase-rcs5.onrender.com"
-}
-))
-app.options('*', cors())
+// app.use(cors({
+//   origin: "https://chatbase-rcs5.onrender.com"
+// }
+// ))
+// app.options('*', cors())
 main(); //connecting to mongodb
 
 
