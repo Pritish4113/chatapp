@@ -1,6 +1,4 @@
-# chatapp
-
-CHIT - CHAT
+# Chit-Chat
 
 This is a realtime chatting application made using MERN stack and web sockets.
 
